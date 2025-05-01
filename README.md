@@ -20,3 +20,15 @@ This project is currently under development. More features and examples will be 
 3. Apply the manifests using `kubectl apply -f <filename>`
 
 Contributions and suggestions are welcome!
+
+## replication-controller (for creating more than one pod)
+1. i have created a file named replication-controller.yaml 
+2. the replica key has 3 as a value meaning it will create 3 different pods of the same app/stuff in my example im using nginx.
+3. for simplicity im just using one container in the pods after that i will update it to have more than one.
+4. the template are the metadata and specs of the pods you want to run .
+5. to create the replication controller or rather run it and the status check are  -
+    ~kubectl create replicationcontroller.yaml
+    ~ kubectl get replicationcontroller
+    ~kubectl get pods
+// ignore any spelling mistakes, idont like this keyboard
+
