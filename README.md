@@ -36,4 +36,4 @@ Contributions and suggestions are welcome!
 2. apparently it can also control pods that are not specified in its own definition.
 3. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
 3. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
-
+4.
