@@ -35,5 +35,5 @@ Contributions and suggestions are welcome!
 1. replica-set has one difference it has a selector field after the template one.
 2. apparently it can also control pods that are not specified in its own definition.
 3. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
-3. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
-4.
+4. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
+5.
