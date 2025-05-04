@@ -36,7 +36,6 @@ Contributions and suggestions are welcome!
 2. apparently it can also control pods that are not specified in its own definition.
 3. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
 4. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
-5.
 
 ## deployment
 1. deployment is the next step for automation of softwares after replication sets 
