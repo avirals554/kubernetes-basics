@@ -37,3 +37,23 @@ Contributions and suggestions are welcome!
 3. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
 4. a replica-set automatically ensures that there are exactly as many pods as specified in the definition in the yaml file.
 5.
+
+## deployment
+1. deployment is the next step for automation of softwares after replication sets 
+2. deployment is used for updates or shall we say changes that maybe made to the softwares/programmes withing the pods that are made by a replicaset .
+3. deployment manages the replica-set , so we dont really have to mind/ manage them at all, we will see how well it scales.
+4. here is some copied info from deepseek if my language is too casual for you:-
+A Deployment is a higher-level abstraction that manages ReplicaSets and provides declarative updates to applications. It allows you to:
+    Roll out new versions of your app (with rolling updates, blue-green, or canary deployments)
+    Roll back to a previous version if something goes wrong.
+    Scale the number of replicas.
+    Pause and resume updates.
+# things to remember:-
+1. Kind: Deployment
+2. matchLabels:
+      name: ---- the name here should be same as 
+template:
+     metadata: 
+                labels: 
+                 name: --- the name here
+
