@@ -56,3 +56,14 @@ template:
                 labels: 
                  name: --- the name here
 
+#kubernetes#
+##deployment##
+### ~kubectl rollout status deployment/myapp-deployment. ###  //this is just a name dont take this seriously.
+### ~kubectl rollout history deployment/myapp-deployment.
+##updates##
+1. whenever doing an update the deployment and make some changes to it , the deployment will fist stop a pod and then create another pod with the updates settings this is done one by one as to maintain the accesibility of the app rather than completly stop then application all together to update the changes.
+
+## commands to remember##
+1. kubectl create -f deployment-definition.yml
+2. kubectl get deployments
+3. kubectl apply -f dep
