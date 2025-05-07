@@ -18,5 +18,5 @@ spec:
      spec: 
                 containers:
                 - name: httpd-frontend
-                  image: nginx
+                  image: alpine:3.14
           
