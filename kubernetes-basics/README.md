@@ -9,7 +9,7 @@ This project is currently under development. More features and examples will be 
 
 ## Contents
 
-- Basic Kubernetes manifests (Pods, Deployments, Services, etc.)
+- BAsic Kubernetes manifests (Pods, Deployments, Services, etc.)
 - Example configurations
 - Simple application deployments
 
