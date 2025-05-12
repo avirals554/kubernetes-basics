@@ -5,7 +5,7 @@ This repository contains a basic implementation of Kubernetes concepts and confi
 ## Status
 
 ⚠️ **Work in Progress**  
-This project is currently under development. More features and examples will be added over time.
+THis project is currently under development. More features and examples will be added over time.
 
 ## Contents
 
